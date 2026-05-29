@@ -1,73 +1,26 @@
 # ChatFlow — Real-Time Chat Application
+Company name: CodeTech IT solutions
 
-A polished real-time chat application built with React, Vite, and Supabase.
+Name: Sanjana M S
 
-## Features
+Domain : Frontend Web Development 
 
-- 🔐 **Authentication** — Sign up & sign in with email/password (email confirmation required)
-- 💬 **Real-time messaging** — Messages appear instantly via Supabase WebSocket subscriptions
-- 📜 **Message history** — Previous messages load automatically on page visit
-- 🌙 **Dark / Light mode** — Toggle with persistence across sessions
-- 📱 **Responsive design** — Works on desktop and mobile
-- 🎨 **Soothing UI** — Purple/indigo design system with smooth animations
+Duration : 4 weeks
 
-## Tech Stack
+Intern ID : CTIS8323
 
-- **Frontend**: React 19 + Vite
-- **Backend**: Supabase (Auth, Postgres, Realtime)
-- **Styling**: Vanilla CSS with custom properties
-- **Routing**: React Router DOM
+Mentor : Neela Santosh
 
-## Setup
+Descrpition of the task :
+This project focuses on developing a Real-Time Chat Application using React.js, Node.js, Express.js, and Socket.IO. The main objective of the project is to create an interactive communication platform where users can send and receive messages instantly using WebSocket technology. The project was developed to understand real-time communication and frontend-backend integration.
 
-### 1. Install dependencies
+The frontend of the application was developed using React.js to create reusable UI components and responsive interfaces. CSS was used for styling the chat window and message section. The backend server was developed using Node.js and Express.js, while Socket.IO was implemented to establish real-time communication between connected users.
 
-```bash
-npm install
-```
+The working of the system begins when users connect to the server through the frontend interface. The backend handles user connections and broadcasts messages instantly to all active users. When a message is sent, it is received by the server and displayed dynamically in the chat interface along with timestamps. The application also supports message history display within the chat window.
 
-### 2. Configure environment variables
+During development, focus was given to creating a responsive interface, handling socket events properly, and maintaining smooth message synchronization between users. Multiple testing and debugging sessions were conducted to resolve connectivity issues and improve application performance.
 
-Create a `.env` file in the root:
+This project helped in understanding React.js component structure, client-server communication, WebSocket technology, event-driven programming, and real-time application development. Overall, the Real-Time Chat Application successfully achieved its objective of creating a responsive and interactive communication platform.
 
-```env
-VITE_SUPABASE_URL=https://your-project.supabase.co
-VITE_SUPABASE_ANON_KEY=your-anon-key
-```
+Output of task:
 
-### 3. Run database migration
-
-Copy the contents of `supabase_migration.sql` into your Supabase SQL Editor and run it.
-
-### 4. Start development server
-
-```bash
-npm run dev
-```
-
-## Deployment (Vercel)
-
-1. Push to GitHub
-2. Import in Vercel — auto-detects Vite
-3. Add `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` as environment variables
-4. Add your Vercel URL to Supabase **Authentication → URL Configuration → Redirect URLs**
-
-## Project Structure
-
-```
-src/
-├── main.jsx              # Entry point
-├── App.jsx               # Routes
-├── index.css             # Design system
-├── lib/supabase.js       # Supabase client
-├── context/
-│   ├── ThemeContext.jsx   # Dark/light mode
-│   └── AuthContext.jsx    # Authentication state
-├── components/
-│   ├── ThemeToggle.jsx    # Theme switch button
-│   ├── MessageBubble.jsx  # Chat message
-│   └── ProtectedRoute.jsx # Auth guard
-└── pages/
-    ├── Login.jsx          # Sign In / Sign Up
-    └── Dashboard.jsx      # Chat interface
-```
