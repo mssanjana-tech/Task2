@@ -23,4 +23,7 @@ During development, focus was given to creating a responsive interface, handling
 This project helped in understanding React.js component structure, client-server communication, WebSocket technology, event-driven programming, and real-time application development. Overall, the Real-Time Chat Application successfully achieved its objective of creating a responsive and interactive communication platform.
 
 Output of task:
+<img width="3199" height="1729" alt="Screenshot 2026-05-06 112748" src="https://github.com/user-attachments/assets/11692bf4-271b-40a3-be12-dedcaf62ba42" />
+<img width="3199" height="1726" alt="Screenshot 2026-05-06 112810" src="https://github.com/user-attachments/assets/054561ac-5c2e-4282-b8f5-3140486f7dde" />
+
 
